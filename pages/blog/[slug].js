@@ -17,7 +17,13 @@ const BlogPost = ({ post }) => {
   const textOne = useRef();
   const textTwo = useRef();
   const router = useRouter();
+  //
+  const [isZoomed, setIsZoomed] = useState(false);
 
+  const handleImageClick = () => {
+    window.open(post.image, '_blank');
+  };
+  //
   useIsomorphicLayoutEffect(() => {
     stagger([textOne.current, textTwo.current], { y: 30 }, { y: 0 });
   }, []);
@@ -38,9 +44,12 @@ const BlogPost = ({ post }) => {
         <Header isBlog={true} />
         <div className="mt-10 flex flex-col">
           <img
-            className="w-full h-96 rounded-lg shadow-lg object-cover"
+            className={`w-full h-auto rounded-lg shadow-lg object-contain mx-auto tablet:w-1/2 ${isZoomed ? 'top-0 left-0 w-full h-full z-50' : ''}`}
             src={post.image}
             alt={post.title}
+            //style={{ width: '50%' }}
+            onClick={handleImageClick}
+            style={{ cursor: 'pointer' }}
           ></img>
           <h1
             ref={textOne}

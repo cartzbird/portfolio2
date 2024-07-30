@@ -89,7 +89,7 @@ const Blog = ({ posts }) => {
                     onClick={() => Router.push(`/blog/${post.slug}`)}
                   >
                     <img
-                      className="w-full h-60 rounded-lg shadow-lg object-cover"
+                      className="w-full h-60 rounded-lg shadow-lg object-contain"
                       src={post.image}
                       alt={post.title}
                     ></img>
