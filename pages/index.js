@@ -104,7 +104,7 @@ export default function Home() {
             <>
             <img
                       className="h-20"
-                      src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
+                      src={`/images/${theme === "dark" ? "27114.jpg" : "canada3.jpg"}`}
                       />
             </>
             )}
