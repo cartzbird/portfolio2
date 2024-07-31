@@ -85,7 +85,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showResume && (
                     <Button
                       onClick={() =>
-                        router.push("/blog")
+                        router.push("/resume")
                       }
                     >
                       Resume
