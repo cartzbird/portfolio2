@@ -1,1 +1,96 @@
-{"name":"Chenkun Zhou, M.Eng in Electrical Engineering, U.B.C","headerTaglineOne":"Project Portfolio","headerTaglineTwo":"","headerTaglineThree":"@Chenkun Zhou,","headerTaglineFour":"M.Eng in Electrical Engineering, University of B.C.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/cartzbird"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chenkun-z-b7674b1b4/"},{"id":"4","title":"Blog","link":"./blog"},{"id":"5","title":"Email","link":"mailto:zck09@student.ubc.ca"}],"projects":[{"id":"1","title":"System identification on drones attitude control system","description":"System Identificaiton, MATLAB, Digital Control, UAV, Drone, University of B.C.","imageSrc":"/images/Drone.png","url":"./blog/system_identification"},{"id":"43aac390-5b3e-4e61-af86-951d5b8edc5c","title":"Square Shape Detection Based on Machine Learning and Image Processing","description":"Machine Learning, Classification, Image Processing, Python, University of B.C.","imageSrc":"/images/ENGR 518 Group 6 Presentation.jpg","url":"./blog/square_detection"}],"services":[],"aboutpara":"Based in British Columbia, Canada. Passionate about tech from Hardware to Software, from SoC to machine learning, communication, IoT, smart home, and control systems. Let's integrate everything together :-)","resume":{"tagline":"I'm an Electrical Engineer.","description":"Based in British Columbia, Canada. Passionate about tech from H/W to S/W, from SoC to machine learning, communication, IoT, smart home, and control systems.\nLet's integrate everything together:)","experiences":[{"id":"1","dates":"July 2020 - Sept 2021, Full-Time","type":"Industrial Automation Dept., Guangzhou HongKe Tech. Co., Ltd.","position":"Technical Engineer in Industrial IoT","bullets":"Drafted user manual and provided technical support for industrial gateway/ PLC/ HMI/ SCADA (HW & IDE), Cooperated with multiple international industrial solutions providers e.g. Trihedral Canada/ EXOR International/ Unitronics/ Kunbus/ Eurotech, Designed industrial automation and communication solutions via multiple protocols e.g. Modbus/EtherCAT/PROFINET/OPC UA, Designed & presented demo projects for international exhibitions e.g. China International Industry Fair, Engaged in Industry 4.0 consultation/ solution design/ product promotion/ and contract follow-up, Conducted a national patent of utility model, Outstanding Employee (top 5)"}],"education":{"universityName":"University of British Columbia","universityDate":"Sept. 2023 - Nov. 2024","universityPara":"GPA 94/100"},"languages":["Javascript","HTML","CSS","Python","MATLAB","Verilog","R","C","PLC","Latex"],"frameworks":["Control system developing","System identification","Applied machine learning","Industrial automation solution design (PLC / SCADA / IIoT)","Solid industrial communication knowledge (Serial / MQTT / OPC UA)","Processor and FPGA developing","Experienced international team cooperation","Techinical support & writing & consultation"],"others":["English - Academic","Mandarin - Native","Cantonese - Intermediate"]}}
+{
+    "name": "Chenkun Zhou, M.Eng in Electrical Engineering, U.B.C",
+    "headerTaglineOne": "Project Portfolio",
+    "headerTaglineTwo": "",
+    "headerTaglineThree": "@Chenkun Zhou,",
+    "headerTaglineFour": "M.Eng in Electrical Engineering, University of B.C.",
+    "showCursor": true,
+    "showBlog": true,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/cartzbird"
+        },
+        {
+            "id": "2",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/chenkun-z-b7674b1b4/"
+        },
+        {
+            "id": "4",
+            "title": "Blog",
+            "link": "./blog"
+        },
+        {
+            "id": "5",
+            "title": "Email",
+            "link": "mailto:zck09@student.ubc.ca"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "System identification on drones attitude control system",
+            "description": "System Identificaiton, MATLAB, Digital Control, UAV, Drone, University of B.C.",
+            "imageSrc": "/images/Drone.png",
+            "url": "./blog/system_identification"
+        },
+        {
+            "id": "43aac390-5b3e-4e61-af86-951d5b8edc5c",
+            "title": "Square Shape Detection Based on Machine Learning and Image Processing",
+            "description": "Machine Learning, Classification, Image Processing, Python, University of B.C.",
+            "imageSrc": "/images/ENGR 518 Group 6 Presentation.jpg",
+            "url": "./blog/square_detection"
+        }
+    ],
+    "services": [],
+    "aboutpara": "Based in British Columbia, Canada. Passionate about tech from Hardware to Software, from SoC to machine learning, communication, IoT, smart home, and control systems. Let's integrate everything together :-)",
+    "resume": {
+        "tagline": "I'm an Electrical Engineer.",
+        "description": "Based in British Columbia, Canada. Passionate about tech from H/W to S/W, from SoC to machine learning, communication, IoT, smart home, and control systems.\nLet's integrate everything together:)",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "July 2020 - Sept 2021, Full-Time",
+                "type": "Industrial Automation Dept., Guangzhou HongKe Tech. Co., Ltd.",
+                "position": "Technical Engineer in Industrial IoT",
+                "bullets": "Drafted user manual and provided technical support for industrial gateway/ PLC/ HMI/ SCADA (HW & IDE), Cooperated with multiple international industrial solutions providers e.g. Trihedral Canada/ EXOR International/ Unitronics/ Kunbus/ Eurotech, Designed industrial automation and communication solutions via multiple protocols e.g. Modbus/EtherCAT/PROFINET/OPC UA, Designed & presented demo projects for international exhibitions e.g. China International Industry Fair, Engaged in Industry 4.0 consultation/ solution design/ product promotion/ and contract follow-up, Conducted a national patent of utility model, Outstanding Employee (top 5)"
+            }
+        ],
+        "education": {
+            "universityName": "University of British Columbia",
+            "universityDate": "Sept. 2023 - Nov. 2024",
+            "universityPara": "GPA 94/100"
+        },
+        "languages": [
+            "Javascript",
+            "HTML",
+            "CSS",
+            "Python",
+            "MATLAB",
+            "Verilog",
+            "R",
+            "C",
+            "PLC",
+            "Latex"
+        ],
+        "frameworks": [
+            "Control system developing",
+            "System identification",
+            "Applied machine learning",
+            "Industrial automation solution design (PLC / SCADA / IIoT)",
+            "Solid industrial communication knowledge (Serial / MQTT / OPC UA)",
+            "Processor and FPGA developing",
+            "Experienced international team cooperation",
+            "Techinical support & writing & consultation"
+        ],
+        "others": [
+            "English - Academic",
+            "Mandarin - Native",
+            "Cantonese - Intermediate"
+        ]
+    }
+}

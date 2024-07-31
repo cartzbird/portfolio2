@@ -10,6 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import { useTheme } from "next-themes";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -22,6 +23,8 @@ export default function Home() {
   const textTwo = useRef();
   const textThree = useRef();
   const textFour = useRef();
+
+  const { theme, setTheme } = useTheme();
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -83,12 +86,18 @@ export default function Home() {
             >
               {data.headerTaglineThree}
             </h1>
+            <div className="flex items-center">
             <h1
               ref={textFour}
-              className="text-lg tablet:text-2xl laptop:text-3xl laptopl:text-4xl p-1 tablet:p-1 text-bold w-full laptop:w-4/5"
+              className="text-lg tablet:text-2xl laptop:text-3xl laptopl:text-4xl p-1 tablet:p-1 text-bold w-full laptop:w-2/5"
             >
               {data.headerTaglineFour}
             </h1>
+            <img
+                      className="h-20"
+                      src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
+            ></img>
+            </div>
           </div>
 
           <Socials className="mt-2 laptop:mt-5" />
