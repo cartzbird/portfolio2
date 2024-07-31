@@ -36,14 +36,14 @@
             "title": "System identification on drones attitude control system",
             "description": "System Identificaiton, MATLAB, Digital Control, UAV, Drone, University of B.C.",
             "imageSrc": "/images/Drone.png",
-            "url": "./blog/system_identification"
+            "url": "/blog/system_identification"
         },
         {
             "id": "43aac390-5b3e-4e61-af86-951d5b8edc5c",
             "title": "Square Shape Detection Based on Machine Learning and Image Processing",
             "description": "Machine Learning, Classification, Image Processing, Python, University of B.C.",
             "imageSrc": "/images/ENGR 518 Group 6 Presentation.jpg",
-            "url": "./blog/square_detection"
+            "url": "/blog/square_detection"
         }
     ],
     "services": [],

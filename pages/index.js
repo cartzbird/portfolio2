@@ -12,11 +12,13 @@ import Link from "next/link";
 import Cursor from "../components/Cursor";
 import { useTheme } from "next-themes";
 import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 // Local Data
 import data from "../data/portfolio.json";
 
 export default function Home() {
+  const router = useRouter();
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
@@ -121,7 +123,7 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+                onClick={() => router.push(project.url)}
               />
             ))}
           </div>
