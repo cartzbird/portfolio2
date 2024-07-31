@@ -103,8 +103,8 @@ export default function Home() {
             {mounted && theme && data.darkMode && (
             <>
             <img
-                      className="h-20"
-                      src={`/images/${theme === "dark" ? "27114.jpg" : "canada3.jpg"}`}
+                      className="h-24"
+                      src={`/images/${theme === "dark" ? "canada1.png" : "canada2.png"}`}
                       />
             </>
             )}

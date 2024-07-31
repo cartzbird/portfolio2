@@ -33,7 +33,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </h1>
               <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "27114.jpg" : "canada3.jpg"}`}
+                  src={`/images/${theme === "dark" ? "canada1.png" : "canada2.png"}`}
                   />
                   </>
                 )}
@@ -142,7 +142,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         <img
         className="h-6 ml-2"
-        src={`/images/${theme === "dark" ? "27114.jpg" : "canada3.jpg"}`}
+        src={`/images/${theme === "dark" ? "canada1.png" : "canada2.png"}`}
           />
         </>
           )}
