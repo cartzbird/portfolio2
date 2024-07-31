@@ -31,7 +31,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </h1>
               <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "ubc2.png" : "ubc3.png"}`}
+                  src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
               ></img>
 
               <div className="flex items-center">
