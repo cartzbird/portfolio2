@@ -23,6 +23,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {({ open }) => (
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
+            {mounted && theme && data.darkMode && (
+            <>
               <h1
                 onClick={() => router.push("/")}
                 className="font-medium p-2 laptop:p-0 link"
@@ -32,10 +34,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <img
                   className="h-6"
                   src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
-              ></img>
-
+                  />
+                  </>
+                )}
               <div className="flex items-center">
-                {data.darkMode && (
+                {mounted && theme && data.darkMode && (
                   <Button
                     onClick={() =>
                       setTheme(theme === "dark" ? "light" : "dark")
@@ -49,7 +52,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     ></img>
                   </Button>
                 )}
-
+                {mounted && theme && data.darkMode && (
                 <Popover.Button>
                   <img
                     className="h-5"
@@ -64,6 +67,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     }`}
                   ></img>
                 </Popover.Button>
+                )}
               </div>
             </div>
             <Popover.Panel
@@ -128,6 +132,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         } dark:text-white top-0 z-10 tablet:flex`}
       >
         <div className="flex items-center">
+          {mounted && theme && data.darkMode && (
+            <>
         <h1
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
@@ -135,9 +141,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           {name}.
         </h1>
         <img
-                      className="h-6 ml-2"
-                      src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
-        ></img>
+        className="h-6 ml-2"
+        src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
+          />
+        </>
+          )}
         </div>
         {!isBlog ? (
           <div className="flex">

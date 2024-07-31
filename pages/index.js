@@ -11,6 +11,7 @@ import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
 import { useTheme } from "next-themes";
+import React, { useEffect, useState } from "react";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -25,6 +26,10 @@ export default function Home() {
   const textFour = useRef();
 
   const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -93,10 +98,14 @@ export default function Home() {
             >
               {data.headerTaglineFour}
             </h1>
+            {mounted && theme && data.darkMode && (
+            <>
             <img
                       className="h-20"
                       src={`/images/${theme === "dark" ? "ubc3.png" : "ubc2.png"}`}
-            ></img>
+                      />
+            </>
+            )}
             </div>
           </div>
 
