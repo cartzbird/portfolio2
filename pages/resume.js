@@ -68,17 +68,51 @@ const Resume = () => {
                   )
                 )}
               </div>
-              <div className="mt-5">
+              <div className="tablet:flex">
+              <div className="mt-5 w-full">
                 <h1 className="text-2xl font-bold">Education</h1>
                 <div className="mt-2">
                   <h2 className="text-lg">{resume.education.universityName}</h2>
                   <h3 className="text-sm opacity-75">
                     {resume.education.universityDate}
                   </h3>
-                  <p className="text-sm mt-2 opacity-50">
+                  <p className="text-sm mt-2 font-bold">
                     {resume.education.universityPara}
                   </p>
+                  <p className="text-sm mt-2 font-bold opacity-80">
+                    GPA 94/100
+                  </p>
                 </div>
+                <div className="mt-2">
+                  <h2 className="text-lg">{"Harbin Engineering University"}</h2>
+                  <h3 className="text-sm opacity-75">
+                    {"Sept. 2016 - July 2020"}
+                  </h3>
+                  <p className="text-sm mt-2 font-bold">
+                    {"Bachelor of Engineering in Automation"}
+                  </p>
+                  <p className="text-sm mt-2 font-bold opacity-80">
+                    GPA 85/100
+                  </p>
+                </div>
+                
+              </div>
+              <div className="mt-5 w-full">
+                  <h1 className="text-2xl font-bold">Publication</h1>
+                  <div className="mt-2">
+                    <span className="text-sm mt-2 font-bold">
+                      {"Research on Dynamic Planning Method of Collision Avoidance Route Based on Ship Kinematics,"}
+                    </span>
+                    <span className="text-sm mt-2">
+                      {"Lipeng Wang, Chenkun Zhou (Primary author,presented the paper at Conf.), Zhi Zhang, Shan Ma, Wenlong Ma, 2021 40th Chinese Control Conference (CCC), 2021, pp. 6178-6183,"}
+                    </span>
+                    <p className="text-sm mt-2 font-bold opacity-80">
+                      <a href="https://doi.org/10.23919/CCC52363.2021.9550425" target="_blank" rel="noopener noreferrer" className="underline">
+                        {"DOI: 10.23919/CCC52363.2021.9550425"}
+                      </a>
+                    </p>
+                  </div>
+              </div>
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>

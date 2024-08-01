@@ -5,11 +5,11 @@ const ProjectResume = ({ dates, type, position, bullets }) => {
 
   return (
     <div className="mt-5 w-full flex mob:flex-col desktop:flex-row justify-between">
-      <div className="text-lg w-full tablet:w-2/5">
+      <div className="text-lg w-full tablet:w-full">
         <h2>{dates}</h2>
         <h3 className="text-sm opacity-50 w-full tablet:w-3/5">{type}</h3>
       </div>
-      <div className="w-full tablet:w-3/5">
+      <div className="w-full tablet:w-full">
         <h2 className="text-lg font-bold">{position}</h2>
         {bulletsLocal && bulletsLocal.length > 0 && (
           <ul className="list-disc">
