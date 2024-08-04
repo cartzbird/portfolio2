@@ -94,3 +94,28 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.centered-table {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.centered-table table {
+  width: auto;
+  min-width: 600px;
+}
