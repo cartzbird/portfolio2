@@ -95,14 +95,14 @@
 }
 
 table {
-  border: 1px solid black;
+  border: 1px solid rgb(145, 136, 136);
   border-collapse: collapse;
   width: 100%;
   table-layout: auto;
 }
 
 th, td {
-  border: 1px solid black;
+  border: 1px solid rgb(152, 152, 152);
   padding: 8px;
   text-align: left;
 }
