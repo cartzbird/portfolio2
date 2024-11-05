@@ -12,8 +12,8 @@ In a team of four, I was responsible for register bank & MUX & Decoder module de
 
 It’s noteworthy that the architecture of this processor project eliminates a separate instruction control module. Instead, the design integrates a single address bus shared between data access and instruction access, managed through a multiplexer (MUX) controlled by the memory control module. I realized this feature through sequential design within the memory control module.
 
-To achieve auto-fetching, I introduced an output signal named "trigger" in the RAM module. This signal toggles between 1 and 0 each time the current instruction is fetched. The trigger then activates the instruction address counter, which increments its current value used as the instruction access address.
+To achieve auto-fetching, I introduced an output signal in the RAM module. This signal toggles between 1 and 0 each time the current instruction is fetched. The trigger then activates the instruction address counter, which increments its current value used as the instruction access address.
 
-We experienced a Chip corporate-like collaboration in this project using git and github service, from project planning, modular design, testing, to final delivery. All the original design requirements were 100% achieved.
+We experienced a Chip corporate-like collaboration in this project using git and github service, from project planning, modular design, testing, to final delivery. All the original design requirements were 100% achieved. With members from various cultural backgrounds, we successfully implemented RAM, memory control, register bank, and ALU, achieving 100% ARM instruction set coverage, automated instruction fetching, and decoding. 
 
 
